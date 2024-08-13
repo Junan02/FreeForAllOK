@@ -29,3 +29,5 @@ document.onkeydown = e => {
     alert ("Bruh")
     return false
   }
+
+}
