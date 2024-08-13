@@ -1,5 +1,5 @@
 //Prevent right click
-document.oncountextmenu = () => {
+document.oncontextmenu = () => {
   alert(HAHA)
   return false
 }
