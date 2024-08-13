@@ -5,7 +5,6 @@ document.oncontextmenu = () => {
 }
 
 //Prevent Keys
-
 document.onkeydown = e => {
   if(e.key == "F12") {
     alert ("Don't try to inspect element")
