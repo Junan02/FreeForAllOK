@@ -12,19 +12,19 @@ document.onkeydown = e => {
   }
 
   //prevent ctrl + u
-   if(e.ctrlkey && e.key == "u") {
+   if(e.ctrlKey && e.key == "u") {
     alert ("lol")
     return false
   }
 
   //prevent copy
-  if(e.ctrlkey && e.key == "c") {
+  if(e.ctrlKey && e.key == "c") {
     alert ("No No")
     return false
   }
 
     //prevent Paste
-  if(e.ctrlkey && e.key == "v") {
+  if(e.ctrlKey && e.key == "v") {
     alert ("Bruh")
     return false
   }
